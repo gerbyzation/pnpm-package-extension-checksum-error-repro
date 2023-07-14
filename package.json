@@ -1,0 +1,32 @@
+{
+	"name": "pnpm-package-extension-checksum-error-repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"pnpm": {
+		"packageExtensions": {
+			"@reach/skip-nav": {
+				"peerDependencies": {
+					"@types/react": "*"
+				}
+			},
+			"@reach/polymorphic": {
+				"peerDependencies": {
+					"@types/react": "*"
+				}
+			}
+		},
+		"patchedDependencies": {
+			"react@18.2.0": "patches/react@18.2.0.patch"
+		}
+	},
+	"dependencies": {
+		"turbo": "^1.10.7"
+	}
+}

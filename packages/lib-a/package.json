@@ -1,0 +1,16 @@
+{
+  "name": "lib-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reach/polymorphic": "^0.18.0",
+    "@reach/skip-nav": "^0.18.0"
+  }
+}

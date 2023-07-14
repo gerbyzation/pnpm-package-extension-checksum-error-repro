@@ -1,0 +1,11 @@
+diff --git a/README.md b/README.md
+index 826563e1b9a12ffd6d56870775b2ed43743736e6..182f5d4a80da503ae6dd2613fc4b02265dde60c1 100644
+--- a/README.md
++++ b/README.md
+@@ -35,3 +35,6 @@ See https://reactjs.org/
+ ## API
+ 
+ See https://reactjs.org/docs/react-api.html
++
++
++just adding some changes here to pretend that we patched react
